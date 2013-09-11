@@ -1,0 +1,19 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RavenPresentation/Program.cs">
+    <Files>
+      <File FileName="RavenPresentation/Program.cs" Line="9" Column="20" />
+      <File FileName="../../../../Users/paulstovell/Projects/RavenTestDrive/RavenTestDrive/Program.cs" Line="13" Column="37" />
+      <File FileName="RavenPresentation/Tweeter.cs" Line="8" Column="35" />
+      <File FileName="RavenPresentation/Tweet.cs" Line="11" Column="3" />
+      <File FileName="RavenPresentation/Model/Survey.cs" Line="8" Column="33" />
+      <File FileName="RavenPresentation/Support/ICommand.cs" Line="8" Column="3" />
+      <File FileName="RavenPresentation/Commands/CreateSurveyCommand.cs" Line="33" Column="9" />
+      <File FileName="RavenPresentation/app.config" Line="7" Column="14" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
