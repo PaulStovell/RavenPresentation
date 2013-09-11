@@ -23,7 +23,7 @@ namespace Commands
 			using (var session = store.OpenSession())
 			{
 				var surveys = session.Query<SurveyWithResponseCountIndex.Result, SurveyWithResponseCountIndex>()
-					.TransformWith<SurveyTitleResponder, SurveyWithResponseCountIndex.Result>()
+					.TransformWith<SurveyTitleTransformer, SurveyWithResponseCountIndex.Result>()
 					.ToList();
 
 				PrintSurveys(surveys);

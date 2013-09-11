@@ -9,9 +9,9 @@ using Raven.Client.Indexes;
 
 namespace Commands
 {
-	public class SurveyTitleResponder : AbstractTransformerCreationTask<SurveyWithResponseCountIndex.Result> 
+	public class SurveyTitleTransformer : AbstractTransformerCreationTask<SurveyWithResponseCountIndex.Result> 
 	{
-		public SurveyTitleResponder()
+		public SurveyTitleTransformer()
 		{
 			TransformResults = results => 
 				from result in results

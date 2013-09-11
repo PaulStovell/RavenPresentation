@@ -59,8 +59,9 @@
     <Compile Include="Support\RandomStringGenerator.cs" />
     <Compile Include="Commands\AutoRespondCommand.cs" />
     <Compile Include="Commands\ListResponsesCommand.cs" />
-    <Compile Include="Commands\SurveyWithResponseCountIndex.cs" />
     <Compile Include="Commands\ListSurveysWithStatsCommand.cs" />
+    <Compile Include="Indexes\SurveyWithResponseCountIndex.cs" />
+    <Compile Include="Indexes\SurveyTitleTransformer.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
@@ -71,5 +72,6 @@
     <Folder Include="Model\" />
     <Folder Include="Support\" />
     <Folder Include="Commands\" />
+    <Folder Include="Indexes\" />
   </ItemGroup>
 </Project>
